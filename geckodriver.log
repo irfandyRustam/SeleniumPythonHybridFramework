@@ -1,0 +1,23 @@
+1658207225507	geckodriver	INFO	Listening on 127.0.0.1:53962
+1658207228593	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53963" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\IRFAND~1\\AppData\\Local\\Temp\\rust_mozprofiletIb2jV"
+1658207229281	Marionette	INFO	Marionette enabled
+1658207229289	Marionette	INFO	Listening on port 53972
+WebDriver BiDi listening on ws://localhost:53963
+Read port: 53972
+1658207229526	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\IRFAND~1\\AppData\\Local\\Temp\\rust_mozprofiletIb2jV\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53963/devtools/browser/72041f9d-05d6-4d2b-9a60-e35f21bc9445
+1658207235343	Marionette	INFO	Stopped listening on port 53972
+1658207237104	geckodriver	INFO	Listening on 127.0.0.1:54007
+1658207240185	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "54008" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\IRFAND~1\\AppData\\Local\\Temp\\rust_mozprofileWxbiWF"
+1658207240674	Marionette	INFO	Marionette enabled
+1658207240681	Marionette	INFO	Listening on port 54017
+WebDriver BiDi listening on ws://localhost:54008
+Read port: 54017
+1658207240858	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\IRFAND~1\\AppData\\Local\\Temp\\rust_mozprofileWxbiWF\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54008/devtools/browser/38fee565-b37e-40e3-9646-0850236c709e
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://admin-demo.nopcommerce.com"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://admin-demo.nopcommerce.com"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1658207248800	Marionette	INFO	Stopped listening on port 54017
