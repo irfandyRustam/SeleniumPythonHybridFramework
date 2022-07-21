@@ -165,3 +165,51 @@
 2022-07-19 18:08:13,720 - INFO - ***************** Login DDT test passed *****************
 2022-07-19 18:08:15,921 - INFO - ***************** End of Login DDT Test *****************
 2022-07-19 18:08:15,921 - INFO - ***************** Completed Test_002_DDT_Login *****************
+2022-07-21 20:19:49,065 - INFO - *************** Test_003_AddCustomer ***************
+2022-07-21 20:19:54,517 - INFO - *************** Login successful ***************
+2022-07-21 20:19:54,517 - INFO - *************** Starting Add Customer Test ***************
+2022-07-21 20:19:57,540 - INFO - *************** Providing Customer Info ***************
+2022-07-21 20:20:09,379 - INFO - *************** Saving Customer Info ***************
+2022-07-21 20:20:09,380 - INFO - *************** Add Customer validation started ***************
+2022-07-21 20:22:12,344 - INFO - *************** Test_003_AddCustomer ***************
+2022-07-21 20:22:18,350 - INFO - *************** Login successful ***************
+2022-07-21 20:22:18,350 - INFO - *************** Starting Add Customer Test ***************
+2022-07-21 20:22:21,300 - INFO - *************** Providing Customer Info ***************
+2022-07-21 20:22:32,973 - INFO - *************** Saving Customer Info ***************
+2022-07-21 20:22:32,973 - INFO - *************** Add Customer validation started ***************
+2022-07-21 20:22:33,572 - INFO - *************** Add Customer Test Passed ***************
+2022-07-21 20:22:36,028 - INFO - *************** Ending Test_003_AddCustomer Test  ***************
+2022-07-21 20:24:31,973 - INFO - *************** Test_003_AddCustomer ***************
+2022-07-21 20:24:37,246 - INFO - *************** Login successful ***************
+2022-07-21 20:24:37,246 - INFO - *************** Starting Add Customer Test ***************
+2022-07-21 20:24:40,164 - INFO - *************** Providing Customer Info ***************
+2022-07-21 20:24:50,016 - INFO - *************** Saving Customer Info ***************
+2022-07-21 20:24:50,016 - INFO - *************** Add Customer validation started ***************
+2022-07-21 20:24:50,207 - INFO - *************** Add Customer Test Passed ***************
+2022-07-21 20:24:52,534 - INFO - *************** Ending Test_003_AddCustomer Test  ***************
+2022-07-21 22:11:10,059 - INFO - *************** Test_004_SearchCustomerByEmail ***************
+2022-07-21 22:11:16,158 - INFO - *************** Login successful ***************
+2022-07-21 22:11:16,158 - INFO - *************** Starting Search Customer By Email ***************
+2022-07-21 22:11:17,883 - INFO - *************** Searching Customer by emailID ***************
+2022-07-21 22:12:53,656 - INFO - *************** Test_004_SearchCustomerByEmail ***************
+2022-07-21 22:12:58,891 - INFO - *************** Login successful ***************
+2022-07-21 22:12:58,892 - INFO - *************** Starting Search Customer By Email ***************
+2022-07-21 22:13:00,584 - INFO - *************** Searching Customer by emailID ***************
+2022-07-21 22:14:17,197 - INFO - *************** Test_004_SearchCustomerByEmail ***************
+2022-07-21 22:14:21,032 - INFO - *************** Login successful ***************
+2022-07-21 22:14:21,033 - INFO - *************** Starting Search Customer By Email ***************
+2022-07-21 22:14:22,682 - INFO - *************** Searching Customer by emailID ***************
+2022-07-21 22:24:27,987 - INFO - *************** Test_004_SearchCustomerByEmail ***************
+2022-07-21 22:24:32,738 - INFO - *************** Login successful ***************
+2022-07-21 22:24:32,738 - INFO - *************** Starting Search Customer By Email ***************
+2022-07-21 22:24:34,361 - INFO - *************** Searching Customer by emailID ***************
+2022-07-21 22:24:39,744 - INFO - *************** Test_004_SearchCustomerByEmail Finished ***************
+2022-07-21 22:30:47,469 - INFO - *************** Test_005_SearchCustomerByName ***************
+2022-07-21 22:30:52,897 - INFO - *************** Login successful ***************
+2022-07-21 22:30:52,897 - INFO - *************** Starting Search Customer By Name ***************
+2022-07-21 22:30:54,533 - INFO - *************** Searching Customer by Name ***************
+2022-07-21 22:31:18,663 - INFO - *************** Test_005_SearchCustomerByName ***************
+2022-07-21 22:31:23,608 - INFO - *************** Login successful ***************
+2022-07-21 22:31:23,608 - INFO - *************** Starting Search Customer By Name ***************
+2022-07-21 22:31:25,476 - INFO - *************** Searching Customer by Name ***************
+2022-07-21 22:31:28,977 - INFO - *************** Test_005_SearchCustomerByName Finished ***************
