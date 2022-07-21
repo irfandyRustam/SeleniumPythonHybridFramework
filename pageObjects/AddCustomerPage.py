@@ -50,14 +50,14 @@ class AddCustomer:
 
     def setCustomerRoles(self, role):
         self.driver.find_element(By.XPATH, self.txtCustomerRoles_xpath).click()
-        time.sleep(3)
+        time.sleep(2)
         if role == "Registered":
             self.listitem = self.driver.find_element(By.XPATH, self.liRegistered_xpath)
         elif role == "Administrators":
             self.listitem = self.driver.find_element(By.XPATH, self.liAdministrators_xpath)
         elif role == "Guests":
             # Here user can be Registered or Guest, only one
-            time.sleep(3)
+            time.sleep(2)
             self.driver.find_element(By.XPATH, "//ul[@id='SelectedCustomerRoleIds_taglist']//span[text()='Registered']/parent::li//span[@title='delete']").click()
             self.listitem = self.driver.find_element(By.XPATH, self.liGuests_xpath)
         elif role == "Forum Moderators":
@@ -72,12 +72,12 @@ class AddCustomer:
 
     def setNewsletter(self, store):
         self.driver.find_element(By.XPATH, self.txtNewsletter_xpath).click()
-        time.sleep(3)
+        time.sleep(2)
         if store == "Test store 2":
             self.liststore = self.driver.find_element(By.XPATH, self.liTestStore2_xpath)
         elif store == "Your store name":
             self.liststore = self.driver.find_element(By.XPATH, self.liYourStoreName_xpath)
-        time.sleep(3)
+        time.sleep(2)
         self.driver.execute_script("arguments[0].click();", self.liststore)
 
     def setManagerOfVendor(self, value):
