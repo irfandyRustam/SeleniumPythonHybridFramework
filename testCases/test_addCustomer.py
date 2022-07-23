@@ -14,6 +14,7 @@ class Test_003_AddCustomer:
     password = ReadConfig.getPassword()
     logger = LogGen.loggen()    # Logger
 
+    @pytest.mark.sanity
     def test_addCustomer(self, setup):
         self.logger.info("*************** Test_003_AddCustomer ***************")
         self.driver = setup
@@ -44,7 +45,7 @@ class Test_003_AddCustomer:
         self.addcust.setGender("Male")
         self.addcust.setFirstName("Eren")
         self.addcust.setLastName("Yeager")
-        self.addcust.setDob("21/03/1994")
+        self.addcust.setDob("10/10/1999")
         self.addcust.setCompanyName("AOT Company")
         self.addcust.setAdminComment("This is for testing purposes...")
         self.addcust.clickOnSave()
